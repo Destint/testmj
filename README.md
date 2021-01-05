@@ -4,15 +4,18 @@
 
 #### Build Setup
 
-``` bash
+```bash
+# 设置yarn的下载源(淘宝镜像) yarn之前
+yarn config set registry https://registry.npm.taobao.org
+
 # install dependencies
-npm install
+npm install / yarn（推荐)
 
 # serve with hot reload at localhost:9080
-npm run dev
+npm run dev / yarn run dev(推荐)
 
 # build electron application for production
-npm run build
+npm run build /yarn run win (推荐)
 
 
 # lint all JS/Vue component files in `src/`
